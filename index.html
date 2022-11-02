@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">MyDream</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto p-2">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">About-us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Delivery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Blog</a>
+                </li>
+            </ul>
+            <div class="d-flex">
+                <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign in</button>
+                <button class="btn btn-outline-danger ms-3">Sign out</button>
+            </div>
+        </div>
+        </div>
+</nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-bs-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModelLabel">Form</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-bs-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row my-3">
+                            <lable for="inputEmail" class="col-sm-2 col-from-lable">Email</lable>
+                            <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail">
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <lable for="inputPassword" class="col-sm-2 col-from-lable">Password</lable>
+                            <div class="col-sm-10">
+                            <input type="Password" class="form-control" id="inputPassword">
+                            </div>
+                        </div>
+                        <fieldset>
+                            <div class="row my-3">
+                                <legend class="col-form-label col-sm-2">Radio</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input type="radio" class="form-check-input" name="radios" value="option1" id="radios1" checked>
+                                        <label for="radios1" class="form-check-lable">Radio 1</label>
+                                    </div>
+                                
+                                    <div class="form-check">
+                                        <input type="radio" class="form-check-input" name="radios" value="option2" id="radios2">
+                                        <label for="radios2" class="form-check-lable">Radio 2</label>
+                                    </div>
+                                
+                                    <div class="form-check">
+                                        <input type="radio" class="form-check-input" name="radios" value="option3" id="radios3" disabled>
+                                        <label for="radios3" class="form-check-lable">Radio 3</label>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-form-lable col-sm-2">CheckBox</div>
+                                    <div class="col-sm-10">
+                                        <div class="form-check">
+                                            <input type="checkbox" id="gridCheck" class="form-check-input">
+                                            <lable for="gridCheck" class="form-check-lable">Save Password</lable>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button class="btn-secondary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<main>
+    <div class="carousel slide" id="carouselControls" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt6e1661a50f2abf0b/60ab379977e996669f49e985/US_Japan_Japan_Header.jpg?width=1680&quality=70&auto=webp" alt="">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://avatars.mds.yandex.net/i?id=c644f7469b7a72df08c308128fdbe7ffe119e2b2-6951238-images-thumbs&n=13" alt="">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://allasiatours.com/img18/frogpool18/private_journeys_overview/img18/src/BGCO182672829.jpg" alt="">
+            </div>
+        </div>
+        <a class="carousel-control-prev" role="button" href="#carouselControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" role="button" href="#carouselControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <img class="w-100" src="https://adenztravel.vn/image/5dc52f5bba9bf007a8760a82/thumbnail.jpg" alt="">
+            </div>
+            <div class="col-md-8 col-sm-12 text-center">
+                <h2 class="my-3">About us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita voluptates repudiandae fugiat vitae doloribus in quo nostrum! Architecto consequatur maxime repellendus nesciunt porro quas eligendi doloremque obcaecati commodi perferendis molestias aspernatur recusandae pariatur temporibus, non ducimus placeat veritatis, culpa debitis veniam repudiandae et, natus doloribus? Assumenda quod consequuntur maiores.</p>
+            </div>
+            <div class="row my-3">
+                <div class="col-md-4 text-center">
+                    <h4>Lorem ipsum</h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill" viewBox="0 0 16 16">
+                        <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+                      </svg>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nam dignissimos consectetur asperiores, sit delectus?</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4>Lorem ipsum</h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill" viewBox="0 0 16 16">
+                        <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+                      </svg>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nam dignissimos consectetur asperiores, sit delectus?</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4>Lorem ipsum</h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill" viewBox="0 0 16 16">
+                        <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+                      </svg>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nam dignissimos consectetur asperiores, sit delectus?</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4>Lorem ipsum</h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill" viewBox="0 0 16 16">
+                        <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+                      </svg>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nam dignissimos consectetur asperiores, sit delectus?</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4>Lorem ipsum</h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill" viewBox="0 0 16 16">
+                        <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+                      </svg>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nam dignissimos consectetur asperiores, sit delectus?</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4>Lorem ipsum</h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill" viewBox="0 0 16 16">
+                        <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+                      </svg>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nam dignissimos consectetur asperiores, sit delectus?</p>
+                </div>
+            </div>
+        </div>
+    
+
+    <div class="container text-center">
+        <P>
+            <a href="#multiCollapse1" data-bs-toggle="collapse" aria-controls="multiCollapse1"
+            role="button" aria-expanded="false" class="btn btn-secondary">I</a>
+            <button class="btn btn-secondary" data-bs-toggle="collapse"
+             data-bs-target="#multiCollapse2" aria-expanded="false"
+            aria-controls="multiCollapse2" type="button">II</button>
+            <button class="btn btn-secondary" data-bs-toggle="collapse"
+             data-bs-target=".multi-collapse" aria-expanded="false"
+            aria-controls="multiCollapse1 multiCollapse2" type="button">III</button>
+        </P>
+        <div class="row">
+            <div class="col">
+                <div class="collapse multi-collapse show" id="multiCollapse1">
+                    <div class="card card-body">
+                        <img class="w-100" src="https://cdnn21.img.ria.ru/images/156038/25/1560382524_0:162:3068:1888_1920x0_80_0_0_be78d9435c38e0064bd674438fec2c12.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse multi-collapse show" id="multiCollapse2">
+                    <div class="card card-body">
+                        <img class="w-100" src="https://n1s1.hsmedia.ru/58/93/f5/5893f508ad2a19788fe666708de4e05a/1000x745_0xac120003_7590206641577729774.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse multi-collapse show" id="multiCollapse1">
+                    <div class="card card-body">
+                        <img class="w-100" src="https://navigosha.com/pic/country/japan.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse multi-collapse show" id="multiCollapse2">
+                    <div class="card card-body">
+                        <img class="w-100" src="https://navigosha.com/pic/country/japan.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+<footer class="text-center pt-4 my-mb-5 border-top">
+    <div class="row">
+        <div class="col-md col-12">
+            <h5>krest bs test</h5>
+            <ul class="list-unstyled text-small">
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+            </ul>
+        </div>
+    
+    
+        <div class="col-md col-12">
+            <h5>krest bs test</h5>
+            <ul class="list-unstyled text-small">
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li> 
+            </ul>
+        </div>
+   
+    
+        <div class="col-md col-12">
+            <h5>krest bs test</h5>
+            <ul class="list-unstyled text-small">
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+            </ul>
+        </div>
+   
+    
+        <div class="col-md col-12">
+            <h5>krest bs test</h5>
+            <ul class="list-unstyled text-small">
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                <li><a href="" class="link-secondary">test</a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
